@@ -1,0 +1,103 @@
+body{
+    background: url(city-traffic-cars-street-1280x19201.jpg) no-repeat;
+    background-size: cover;
+    
+}
+body {margin: 0;padding: 0;font-family: sans-serif;}
+
+ul {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  position: relative;
+  display: block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  overflow: hidden;
+}
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background: rgb(212, 168, 20);
+  transition: 0.5s;
+}
+ul li a:hover {
+  color: white;
+}
+ul li a:hover::before {
+  animation: animate .5s linear forwards; 
+}
+p{
+  font-size: large;
+  color: white;
+  line-height: 30px;
+  background-color:  rgba(109, 102, 93, 0.801);
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+figcaption{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign__word {
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1;
+  color: rgba(248, 101, 3, 0.596);
+  -webkit-animation: neon .08s ease-in-out infinite alternate;
+          animation: neon .08s ease-in-out infinite alternate;
+  font-family: "Vibur", cursive;
+ 
+}
+body {
+ 
+  
+  
+}
+
+/*-- Animation Keyframes --*/
+@-webkit-keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(212, 186, 137, 0.9), 0 0 30px rgba(212, 186, 137, 0.34), 0 0 12px rgba(212, 186, 137, 0.52), 0 0 21px rgba(212, 186, 137, 0.92), 0 0 34px rgba(212, 186, 137, 0.78), 0 0 54px rgba(212, 186, 137, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(212, 186, 137, 0.98), 0 0 30px rgba(212, 186, 137, 0.42), 0 0 12px rgba(212, 186, 137, 0.58), 0 0 22px rgba(212, 186, 137, 0.84), 0 0 38px rgba(212, 186, 137, 0.88), 0 0 60px #f8f8f7;
+  }
+}
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(212, 186, 137, 0.9), 0 0 30px rgba(212, 186, 137, 0.34), 0 0 12px rgba(212, 186, 137, 0.52), 0 0 21px rgba(212, 186, 137, 0.92), 0 0 34px rgba(212, 186, 137, 0.78), 0 0 54px rgba(212, 186, 137, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(212, 186, 137, 0.98), 0 0 30px rgba(212, 186, 137, 0.42), 0 0 12px rgba(212, 186, 137, 0.58), 0 0 22px rgba(212, 186, 137, 0.84), 0 0 38px rgba(212, 186, 137, 0.88), 0 0 60px #eeedea;
+  }
+}
