@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Main.css">
+    
+    <title>SMART ROAD</title>
+    <style>
+        .logo {
+            margin-top: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        img {
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        figure {
+            background-color: rgba(109, 102, 93, 0.801);
+            width: 500px;
+            transform: translateX(450px);
+            border-radius: 10px;
+        }
+
+        figcaption {
+            margin-left: 100px;
+            text-align: left;
+            color: antiquewhite;
+            transform: translateY(-50px);
+            font-family: 'Courgette', cursive;
+            
+        }
+        a{
+            color: white;
+        }
+        a:hover{
+            color: orange;
+        }
+        @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="Main.html">Home</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+            <li><a href="ourObjects.html">Our objects</a></li>
+            <li><a href="demo.html">Demo</a></li>
+            <li><a href="what'sNew.html">What's new</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+    </header>
+
+    <div id="sound"><img class="logo" src="Знімок екрана (113).png" width="300" height="150"> </div>
+    <audio id="soundAudo">
+        <source src="00313 (mp3cut.net).mp3" type="audio/mpeg">
+
+    </audio>
+    <script>
+        var sound = document.getElementById('sound'),
+            soundAudio = document.getElementById('soundAudo');
+        sound.addEventListener('click', fPlay, false);
+        function fPlay() {
+            soundAudio.play();
+        }
+    </script>
+
+
+    <figure>
+        <img src="facebook.png" width="80" height="70"></img>
+        <figcaption><a href="https://www.facebook.com/profile.php?id=100005091344543">https://www.facebook.com/profile.php?id=100005091344543</a></figcaption>
+
+
+        <img src="instragram.png" width="80" height="70"></img>
+        <figcaption><a href="https://www.instagram.com/khomenkonastya/?hl=ru">https://www.instagram.com/khomenkonastya/?hl=ru</a></figcaption>
+
+        <img src="mshiuk.jpg" width="80" height="70"></img>
+        <figcaption>+380974567331</figcaption>
+
+        <img src="281769.svg" width="70" height="70"></img>
+        <figcaption>SmartRoad@gmail.com</figcaption>
+    </figure>
+
+
+
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>

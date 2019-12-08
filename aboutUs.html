@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="aboutUs.css">
+  <title>SMART ROAD</title>
+  <style>
+    img {
+      margin-top: 10px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    figure {
+    background: rgba(109, 102, 93, 0.801); 
+    display: block; 
+    float: left; 
+    margin: 0 80px 80px 0; 
+    text-align: center; 
+    padding: 10px 20px 20px 10px;
+    transform: translateX(300px);
+   }
+   
+  </style>
+
+</head>
+
+<body>
+   
+  <header>
+    <ul>
+      <li><a href="Main.html">Home</a></li>
+      <li><a href="aboutUs.html">About us</a></li>
+      <li><a href="ourObjects.html">Our objects</a></li>
+      <li><a href="demo.html">Demo</a></li>
+      <li><a href="what'sNew.html">What's new</a></li>
+      <li><a href="contactUs.html">Contact us</a></li>
+    </ul>
+  </header>
+
+  <div id="sound"><img src="Знімок екрана (113).png" width="300" height="150"> </div>
+  <audio id="soundAudo">
+    <source src="00293 (mp3cut.net).mp3" type="audio/mpeg">
+
+  </audio>
+  <script>
+    var sound = document.getElementById('sound'),
+      soundAudio = document.getElementById('soundAudo');
+    sound.addEventListener('click', fPlay, false);
+    function fPlay() {
+      soundAudio.play();
+    }
+  </script>
+
+<!-- <h1 align="center" >SMART ROAD</h1> -->
+<div class="sign">
+    <span class="sign__word">SmartRoad</span>
+   
+   
+</div>
+
+  <p>We are SmartRoad team - purposeful students of Lviv Polytechnic National  University, who often were late for meetings/university because of the traffic
+    jams.But now we don't, because we came up with idea to make a smart traffic light which will help us to save the
+    precious time and money,too.Shortly,the essence of our startup is to unload traffic on the road by switching the
+    green light for the bigger stream of cars.Don't worry,we took care of all the little things.More details in our demo
+    page.</p>
+    <figure>
+      <img class="photo" width="240" height="320" src="7d100fc2-2b0d-41e5-b6f4-5e9568dfccbe.jpg " alt="">
+      <figcaption><u>Yevhen Surkov</u>,<br>software,hardware</figcaption>
+     </figure>
+     <figure>
+      <img class="photo" width="240" height="320" src="93ab7379-f813-4db3-94bf-08a6ac1dcf4a.jpg" alt="">
+      <figcaption><u>Vlad Tvardovskyi</u>,<br>software</figcaption>
+     </figure>
+     <figure>
+      <img class="photo" width="240" height="396" src="f783b4bf-0ceb-4d01-9e08-7e09174d1765.jpg" alt="">
+      <figcaption><u>Danylo Chalyi</u>,<br>software</figcaption>
+     </figure>
+     <figure>
+      <img class="photo" width="320" height="314" src="cbded785-f193-4c1d-bf96-206128fbeece.jpg" alt="">
+      <figcaption><u>Anastasiia Khomenko</u>,<br>frontend,design</figcaption>
+     </figure>
+     <figure>
+      <img class="photo" width="320" height="314" src="378ab9fc-8bce-4134-9dc9-48916b369a15.jpg" alt="">
+      <figcaption><u>Vitaliy Dutka</u>,<br>mentor</figcaption>
+     </figure>
+</body>
+<footer>
+
+</footer>
+
+</html>
